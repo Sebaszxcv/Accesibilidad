@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio - Tienda Accesible</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Tienda Accesible</h1>
+    <nav role="navigation" aria-label="Menú principal">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenido</h2>
+      <p>Este sitio cumple con buenas prácticas de <span lang="en">accessibility</span>.</p>
+    </section>
+
+    <section aria-label="Galería de productos">
+        <h2>Nuestros productos</h2>
+        <div class="galeria">
+          <div class="producto">
+            <img src="img/tenis.jpg" alt="Zapatos deportivos negros de hombre">
+            <p>Zapatillas Deportivas</p>
+          </div>
+          <div class="producto">
+            <img src="img/61j2uxw3rHL._AC_.jpg" alt="Bolso de cuero marrón para mujer">
+            <p>Bolso de Cuero</p>
+          </div>
+          <div class="producto">
+            <img src="img/reloj.png" alt="Reloj de pulsera digital">
+            <p>Reloj Digital</p>
+          </div>
+        </div>
+      </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Tienda Accesible</p>
+  </footer>
+</body>
+</html>
